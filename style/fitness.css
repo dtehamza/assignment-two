@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sherd style */
+.btn-primary{
+   background-color: #e6533c;
+    font-size: 18px;
+    border-radius: 42px;
+    font-weight: 800px;
+    width: 224px;
+    height: 54px;
+    padding: 2px;
+    border: none;
+    gap: 14px;
+    margin-right: 14px;
+
+}
+
+.btn-secondary{
+    background-color:transparent;
+     font-size: 18px;
+     border-radius: 42px;
+     font-weight: 800px;
+     width: 224px;
+     height: 54px;
+     padding: 2px;     
+     gap: 14px;
+     border:1px solid white;
+     color: white;
+ 
+ }
+.inter-font{
+    font-family: "Inter";
+}
+.font-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* navbar Style  */
+
+.navbar-wrapper{
+    background-image: linear-gradient(#111111, #111010 );
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 57px;
+
+}
+.navbar-main {   
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin:0 auto;
+    align-items: center;
+}
+.nav-title{
+    font-size: 36px;
+    color: #e5633c;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 190px;
+}
+.nav-btn{
+    border: 1px solid grey;
+    border-radius: 39px;
+    padding: 4px;
+    padding-right: 20px;
+    display: flex;   
+    width: 465;
+    height: 46;
+    gap: 47px;
+    align-items: center;
+    margin-right: 190px;}
+     
+.btn-one {
+    background-color:  #e6533c;
+    border-radius: 46px;
+    border: none;    
+    padding: 8px 20px;
+}
+
+.nav-link{    
+    text-decoration: none; 
+    align-content: center;
+    color: white;
+    font-size: 18px;
+}
+.hamburger-menu{
+    display: none;
+    
+}
+/* Ends navbar Style  */
+.main-body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #080808;
+
+}
+/* banner style */
+
+.banner-content{
+    max-width: 1440px;
+    display: flex;
+    margin-top: 32px;
+    gap:87.5px;
+    align-items: center;
+}
+.banner-container{
+        margin-left: 190px;   
+}
+.banner-title{
+    color: white;
+    font-size: 78px;
+    width: 520px;
+   
+}
+.banner-description{
+    font-size: 16px;
+    width: 520px;
+    padding: 28px 0;
+
+}
+.banner-image{
+       position: relative;
+      
+      
+}
+.five-thousand{
+    font-size: 18px;
+    width: 193px;
+    height: 98px;
+    background-color:#303030de;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 60%;
+    right: -20%;
+}
+.banner-images{
+    width: 349px;
+    height: 580px;
+  
+   
+}
+.three-thousand{
+    font-size: 13px;
+    width:206px;
+    height: 96px;
+    background-color:#303030de;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    top:72%;
+    right: 70%;
+    display: flex;  
+    align-items: center; 
+    justify-content: space-around;
+    }
+.circle{
+    color:#e6533c;
+}
+/* banner style Ends*/
+/* habit Style Stared */
+.habit{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #080808;
+    
+}
+.habit-title{
+    font-size: 3rem;
+    color: white;   
+    padding-top: 109px;
+    text-align: center;
+}
+.habit-description{
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 58px;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 671px;
+    text-align: center;
+}
+.habit-content{    
+    display: flex;
+    margin-left: 198px;
+    width: 1044px;
+    height: 274px;
+    justify-content: space-between;
+}
+
+.habit-circle{
+    max-width: 180px;
+    min-height: 180px;
+    border-radius: 50%;
+    border: 3px solid rgb(41, 40, 40);
+}
+.habit-content-menu{
+    align-content: center;
+    text-align: center;
+}
+.habit-content-title{
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+.habit-content-description{
+    font-size: 14px;
+    width: 231px;
+}
+/* habit style ends */
+/* run style stared */
+.run-container{
+    display: flex;
+    background-color:rgba(34, 34, 34, 1);
+    margin:190px ;
+    margin-top: 100px;
+    gap: 110px;
+    border-radius: 18px;
+    width: 1060px;
+    height: 371px;
+}
+.run-content{
+    
+    width: 443px;
+    height: 290px;
+    margin: 40px 54px;
+
+}
+.run-title{
+    color: white;
+    font-size: 3rem;
+    width: 443px;
+}
+.run-description{
+    width: 443px;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 34px;
+}
+.run-images{
+    width: 366px;
+    height: 312px;
+    margin-top: 30px;
+    border-radius: 18px;
+    margin-left: ;
+    
+}
+/* run style ends */
+/* exercise style */
+.training-container {
+    text-align: left;
+    margin-left:190px ;
+}
+.training-title {
+    color: white;
+    font-size: 3rem;
+    padding-bottom:14px ;
+}
+.training-description {
+   font-size: 14px;
+   width: 671px;
+   padding-bottom: 58px;
+}
+
+.training-image {    
+   
+    width: 1060px;          
+    margin-bottom: 50px; 
+   margin: 0 auto;
+    
+   
+}
+.training-image-1{
+    display: flex;    
+    position: relative;   
+    height: 201.5px; 
+}
+.exercise1{
+    width: 250px;
+    height: 201.5px;  
+    background: #06FFD2 ;  
+    
+ 
+}
+.exercise-a{
+   font-size: 14px;
+   color: black;
+   position: absolute;
+   top: 157px;
+   left: 24px;
+}
+.exercise2{    
+    width: 520px;
+    height: 201.5px;    
+}
+.exercise-b{
+    font-size: 14px;
+    color:white;
+    position: absolute;
+    top: 25px;
+    margin-left:31px ;   
+}
+.exercise3 {
+    width: 290px;
+    height: 201.5px;    
+}
+.exercise-c {
+    font-size: 14px;
+    color:white;
+    position: absolute;
+    top: 146px;
+    margin-left:27px ;  
+    width: 176px;  
+}
+.training-image-2{
+   
+    display: flex;    
+    position: relative;   
+    height: 201.5px; 
+    
+   
+}
+.exercise4{
+    width: 425px;
+    height: 201.5px;
+}
+.exercise-d {
+    font-size: 14px;
+    color: black;
+   position: absolute;
+   top: 144.5px;
+   left: 24px;
+  
+}
+.exercise5{    
+    width: 288px;
+    height: 201.5px;
+}
+.exercise-e{
+    font-size: 14px;
+    color:white;
+    position: absolute;
+    top: 25px;
+    margin-left:31px ;   
+    width: 176px; 
+}
+.exercise6 {
+    width: 347px;
+    height: 201.5px;
+}
+.exercise-f {
+    font-size: 14px;
+    color:white;
+    position: absolute;
+    top: 142.5px;
+    margin-left:38px ;  
+    width: 176px; 
+}
+
+/* BIM Style */
+
+.bim-container{
+    
+    text-align: left;
+    padding-bottom: 88px;
+    
+}
+.bim-title{
+    margin-top: 88px;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    
+}
+.bim-description{
+    margin-top: 14px;
+    font-size: 14px;
+    text-align: center;    
+    
+}
+.bim-chart-title{
+    color: white;
+    padding: 52px;
+    margin-left: 147px;
+    font-size: 28px;
+}
+.bim-from{
+    max-width: 1440px;
+    background-color: #1d1c1c;
+    gap: 175px;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 189px;
+}
+td{
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+th{
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+.table-head{
+    color: white;
+    
+}
+.bim-from{
+    display: flex;
+}
+.calculator-bim-title{
+    font-size: 28px;
+    color: white;
+    padding-top: 52px;
+    
+}
+.calculator-description{
+    font-size: 14px;
+    width: 577px;
+    padding-top:14px ;
+    padding-bottom: 34px;
+}
+.form-1{
+    display: flex;       
+    gap: 12px;
+    
+
+}
+.Height-cm {
+    /* background-color: #2222222; */
+    color: #ffffff;
+    opacity: 40%;
+    border: none;
+    border-radius: 8px;     
+    width: 282.5px;
+    height: 48px;
+    
+    
+}
+.weight-kgm{
+    background-color: #2222222;
+    opacity: 40%;
+    border: none;
+    border-radius: 8px;
+    width: 282.5px;
+    height: 48px;
+    color: #ffffff;
+    
+}
+.form-2{
+    display: flex;
+    gap: 12px;
+    padding-top:12px ;
+}
+.form-age{
+    background-color: #2222222;
+    opacity: 40%;
+    border: none;
+    border-radius: 8px;
+    width: 282.5px;
+    height: 48px;
+}
+.form-sex{
+    background-color: #2222222;
+    opacity: 40%;
+    border: none;
+    border-radius: 8px;
+    width: 282.5px;
+    height: 48px;
+       
+}
+.activity-one{
+    padding-top:12px ;
+}
+.activity-btn{
+    
+    background-color: #2222222;
+    opacity: 40%;
+    border: none;
+    border-radius: 8px;
+    width: 577px;
+    height: 48px;
+
+
+}
+.Calculate-btn{
+    padding-top: 12px;
+    padding-bottom: 54px;
+}
+/* BIM Style Ends */
+
+/* Teams Style */
+.teams{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 88px;
+    
+}
+.team{
+    text-align: center;
+}
+.teams-title{
+    color: white;
+    font-size: 48px;    
+}
+.teams-description{   
+    padding-top:14px ;
+    padding-bottom: 58px;
+    width: 671px;
+    margin: 0 auto;
+}
+.teams-member{
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background-color: #1d1c1c;
+   margin: 0 auto;
+    position: relative; 
+    
+}
+.team-trainer-1{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    
+    gap: 20px;
+    padding: 20px 20px;
+    
+        
+   
+}
+.team-image{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+  
+}
+.team-instructor-1{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 212px;
+    left: 39px;
+}
+.trainer-1{
+    position: absolute;
+    color:#ffffff;    
+    opacity: 50%;
+    top: 240px;
+    left: 39px;
+
+}
+.team-instructor-2{
+    position: absolute;
+    color: white;    
+    font-size: 20px;
+    top: 212px;
+    top: 212px;
+    left: 386px;
+   
+    
+}
+.trainer-2{
+    position: absolute;
+    color:#ffffff;  
+    opacity: 50%;
+    top: 240px;
+    left: 386px;
+    
+
+}
+.team-instructor-3{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 212px;
+    left: 732px;
+    
+}
+.trainer-3{
+    position: absolute;
+    color:#ffffff;  
+    opacity: 50%;
+    top: 240px;
+    left: 732px;
+}
+.team-trainer-2{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;  
+    position: relative;
+    gap: 20px;
+    padding-left: 20px;
+   
+}
+.team-instructor-4{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 212px;
+    left: 39px;
+}
+.trainer-4{
+    position: absolute;
+    color:#ffffff;    
+    opacity: 50%;
+    top: 240px;
+    left: 39px;
+
+}
+.team-instructor-5{
+    position: absolute;
+    color: white;    
+    font-size: 20px;
+    top: 212px;
+    top: 212px;
+    left: 386px;
+   
+    
+}
+.trainer-5{
+    position: absolute;
+    color:#ffffff;  
+    opacity: 50%;
+    top: 240px;
+    left: 386px;
+    
+
+}
+.team-instructor-6{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 212px;
+    left: 732px;
+    
+}
+.trainer-6{
+    position: absolute;
+    color:#ffffff;  
+    opacity: 50%;
+    top: 240px;
+    left: 732px;
+}
+
+/* footer style */
+.fitness-footers{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #1d1c1c;
+}
+.fitness-footer{
+    padding-top: 66px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1059px;
+    height: 249px;
+    padding-bottom: 79px;
+  
+}
+
+.fitness{
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #e5633c;       
+}
+.fitness-description{
+    width: 443px;
+    height: 72px;
+    font-size: 14px;  
+    color: #ffffff;
+    opacity: 50%;
+    margin-top: 20px;
+}
+.stared{    
+    width: 181px;
+    height: 249px;
+    
+}
+.stared-title{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom:39px;   
+}
+
+.stared-list{
+    list-style: none;    
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 50%;
+    padding: 10px;
+    
+}
+.reserved{
+    
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 50%;
+    padding: 35px;
+}
+
