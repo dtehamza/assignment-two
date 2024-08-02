@@ -725,8 +725,9 @@ th{
     width: 1060px;
     margin-top: 79px;
     display: inline-block; 
-    margin-left: 190px;
+    margin-left: 189px;
     color: #1d1c1c;
+    border-color: #1d1c1c;
     
 }
 
