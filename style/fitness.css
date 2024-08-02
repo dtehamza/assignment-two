@@ -664,15 +664,17 @@ th{
     max-width: 1440px;
     margin: 0 auto;
     background-color: #1d1c1c;
+    padding-top: 66px;
 }
 .fitness-footer{
-    padding-top: 66px;
+       
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     width: 1059px;
     height: 249px;
     padding-bottom: 79px;
+
   
 }
 
@@ -711,11 +713,20 @@ th{
     
 }
 .reserved{
-    
     font-size: 20px;
     text-align: center;
     color: #ffffff;
     opacity: 50%;
-    padding: 35px;
+    padding-top: 36px;
+    padding-bottom: 35px;
+    
+}
+.horizontal{
+    width: 1060px;
+    margin-top: 79px;
+    display: inline-block; 
+    margin-left: 190px;
+    color: #1d1c1c;
+    
 }
 
