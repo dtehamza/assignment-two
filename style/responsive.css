@@ -8,6 +8,7 @@
        margin-right: 170px;
        
     }
+    
     /* banner Style */
     .banner-content{
         flex-direction: column; 
@@ -43,9 +44,7 @@
 
 
 @media screen and (max-width: 576px) {
-    .navbar-main{
-        margin-left: -20px;
-    }
+    
     .nav-btn{
         display:none;
     }
