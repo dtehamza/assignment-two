@@ -130,7 +130,7 @@ a{
     max-width: 1440px;
     display: flex;
     margin-top: 32px;
-    gap:87.5px;
+    gap:167px;
     align-items: center;
 }
 .banner-container{
@@ -459,25 +459,29 @@ th{
     
 
 }
-.Height-cm {
-    /* background-color: #2222222; */
+.Height-cm{
+    
+    background-color: #302f2f ;
+    
     color: #ffffff;
-    opacity: 40%;
+    opacity: 100%;
     border: none;
     border-radius: 8px;     
     width: 282.5px;
     height: 48px;
+    padding-left: 20px;
     
     
 }
 .weight-kgm{
-    background-color: #2222222;
-    opacity: 40%;
+    background-color: #302f2f ;
+    opacity: 100%;
     border: none;
     border-radius: 8px;
     width: 282.5px;
     height: 48px;
     color: #ffffff;
+    padding-left: 20px;
     
 }
 .form-2{
@@ -486,33 +490,42 @@ th{
     padding-top:12px ;
 }
 .form-age{
-    background-color: #2222222;
-    opacity: 40%;
+    background-color: #302f2f ;
+    color: #ffffff;
+    opacity: 100%;
     border: none;
     border-radius: 8px;
     width: 282.5px;
     height: 48px;
+    padding-left: 20px;
 }
 .form-sex{
-    background-color: #2222222;
-    opacity: 40%;
+    background-color: #302f2f ;
+    color: #ffffff;
+    opacity: 100%;
     border: none;
     border-radius: 8px;
     width: 282.5px;
     height: 48px;
+    padding-left: 20px;
        
 }
 .activity-one{
-    padding-top:12px ;
+    padding-top:12px ;    
+
 }
+
 .activity-btn{
     
-    background-color: #2222222;
-    opacity: 40%;
+    background-color: #302f2f ;
+    color: #ffffff;
+    opacity: 100%;
     border: none;
     border-radius: 8px;
     width: 577px;
     height: 48px;
+    padding-left: 20px;
+
 
 
 }
