@@ -23,8 +23,10 @@
 
 /* sherd style */
 .circle{
-    background-color: white;
-    border-radius:70px;
+    background-color: white;    
+    border-radius: 100px;
+    border-width: 10px;
+    
 }
 
 .btn-primary{
@@ -43,6 +45,7 @@
 a{
     text-decoration: none;
     color: white;
+    font-weight: 600;
 }
 
 .btn-secondary{
@@ -68,7 +71,7 @@ a{
 /* navbar Style  */
 
 .navbar-wrapper{
-    background-image: linear-gradient(to top,#111111, #353333,#111111 );
+    background-image: linear-gradient(to bottom,#111111 100%, #353333 20%,#111111 60% );
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 57px;
@@ -218,7 +221,8 @@ a{
     margin-left: 198px;
     width: 1044px;
     height: 274px;
-    justify-content: space-between;
+    gap: 36px;
+  
 }
 
 .habit-circle{
@@ -226,6 +230,7 @@ a{
     min-height: 180px;
     border-radius: 50%;
     border: 3px solid rgb(41, 40, 40);
+    
 }
 .habit-content-menu{
     align-content: center;
@@ -756,8 +761,8 @@ th{
     margin-top: 79px;
     display: inline-block; 
     margin-left: 189px;
-    color: #1d1c1c;
-    border-color: #1d1c1c;
+    
+    border-color:#444444 ;
     
 }
 

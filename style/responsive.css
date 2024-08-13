@@ -61,10 +61,9 @@
         margin-right:20px
     }
     /* Nav style end */
-    .banner-content{
+    .banner-content {
         flex-direction: column; 
-        
-                
+                        
     }
     .banner-container{
         margin-left:5px;
@@ -80,13 +79,39 @@
     }
     /* habit responsive */
 
-    .habit-container{
-        max-width: 576px;
+    .habit{
+        
+       flex-direction: column;    
+        
+    }
+    .habit-description{
+        width: 316px;
     }
     .habit-title{
         margin: 0 auto;
     }
+    .habit-content-menu{
+        flex-direction: column;
+        margin: 0 auto;
 
+    }
+    .run-container{
+        flex-direction: column;
+        overflow: none;
+    }
+    .training{
+        flex-direction: column;
+        
+    }
+    .bim-from{
+        flex-direction: column;
+    }
+    .teams{
+        flex-direction: column;
+    }
+    .fitness-footer{
+        flex-direction: column;
+    }
 
 }
 
