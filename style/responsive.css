@@ -81,37 +81,136 @@
 
     .habit{
         
-       flex-direction: column;    
+       flex-direction: column;   
+      
         
     }
     .habit-description{
         width: 316px;
+       
     }
     .habit-title{
         margin: 0 auto;
     }
     .habit-content-menu{
-        flex-direction: column;
-        margin: 0 auto;
-
+      
+        width: 20%;   
+       margin-right: -190px;
+       
     }
     .run-container{
         flex-direction: column;
-        overflow: none;
+        margin-top: 900px;
+        margin-left: 20px;
+        max-width: 540px;
+        height: 670px;
+        
     }
+    .run-images{
+       margin-top: -150px;
+       margin-left: 90px;
+        
+        
+    }
+   
+
     .training{
+        flex-direction: column;
+        margin: 0 auto;
+        margin-left: -170px;
+        
+               
+    }
+    .training-title{
+       width: 331px;
+    }
+    .training-description {
+        width: 331px;
+     }
+
+     .training-image{
+        flex-direction: column;
+       
+     }
+    .training-image-1{
+        flex-direction: column;
+                    
+    }
+    .bim-title{
+        margin-top: 250px;
+        margin-left: 140px;
+        width: 353px;
+    }
+    .bim-description{
+        width: 353px;
+        margin-left: 140px;
+    }
+    .bim-calculator{
+        max-width: 520px;
+        margin-left: 20px;
+        
+    }
+    .bim-chart-title{
+        margin-left: 20px;
+    }
+    .calculator-description {
+        width: 353px;
+    }
+    .activity-btn{
+        width: 480px;
+    }
+    
+    .bim-chart{
+        margin-left: -60px;
+    }
+
+    .bim-from{
+       
+        flex-direction: column;
+        padding: 20px;
+        
+        
+    }
+
+
+
+
+    .calculator-bim-title{
+        margin-top: -150px;
+    }
+
+
+    .teams{
         flex-direction: column;
         
     }
-    .bim-from{
+
+    .teams-member{
         flex-direction: column;
+        max-width: 400px;
+        margin-left: 10px;
+        height: 1800px;
     }
-    .teams{
+    .team-trainer-1{
+        flex-direction: column;
+        width: 300px;
+        margin-left: 10px;
+    }
+    .team-trainer-2{
         flex-direction: column;
     }
     .fitness-footer{
         flex-direction: column;
+        height: 500px;
+        margin-left: 20px;
     }
-
+    .horizontal{
+        margin-top: 190px;
+        margin-left: 20px;
+        width: 500px;
+    }
+    .reserved{
+        margin-top: 1ch;
+    }
 }
 
